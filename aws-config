@@ -1,0 +1,23 @@
+[default]
+region = ap-south-1
+output = json
+
+[profile myproject]
+region = ap-south-1
+output = json
+
+[profile myotherproject]
+region = ap-south-1
+output = json
+
+[profile mycompany]
+region = ap-south-1
+output = json
+role_arn = arn:aws:iam::123456789012:role/mycompany-admin
+source_profile = default
+
+[profile mypersonal]
+region = ap-south-1
+output = json
+role_arn = arn:aws:iam::987654321098:role/mypersonal-admin
+source_profile = default
