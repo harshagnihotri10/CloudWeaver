@@ -5,10 +5,6 @@
 <!-- Project Description -->
 <p align="center">A secure and scalable VPC foundation for AWS resources</p>
 
-<!-- Banner/Image -->
-<p align="center">
-  <img src="https://via.placeholder.com/800x400" alt="VPC Diagram">
-</p>
 
 <!-- Table of Contents -->
 ## Table of Contents
@@ -49,10 +45,11 @@ output = json
 
    ```bash
    aws cloudformation create-stack --stack-name MyVPCStack --template-body file://vpc-template.yaml --parameters file://parameters.json
-Customization
+
+### Customization
 Edit the parameters.json file to customize the VPC deployment. Specify parameters such as VPC CIDR blocks, subnet CIDR blocks, and resource names.
 
-Deployment
+### Deployment
 Use the AWS CLI to create the CloudFormation stack and deploy the VPC. See Deployment for details.
 
 <!-- Customization -->
