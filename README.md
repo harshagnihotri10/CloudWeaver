@@ -26,20 +26,20 @@ The goal of this project is to create a secure and scalable Virtual Private Clou
 <!-- Getting Started -->
 ## Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 Ensure that you have the following prerequisites in place:
 - AWS CLI configured with necessary credentials (see [AWS CLI Configuration](#aws-cli-configuration)).
 - AWS CloudFormation knowledge and access.
 
-### AWS CLI Configuration
+#### AWS CLI Configuration
 
 If you haven't already, configure your AWS CLI with the necessary credentials, region, and output format by editing the `~/.aws/config` file. You can use the `[default]` profile or create a named profile.
 
-### Customization
+#### Customization
 Edit the parameters.json file to customize the VPC deployment. Specify parameters such as VPC CIDR blocks, subnet CIDR blocks, and resource names.
 
-### Deployment
+#### Deployment
 Use the AWS CLI to create the CloudFormation stack and deploy the VPC. See Deployment for details.
 
 
