@@ -16,7 +16,7 @@
 - [Accessing Resources](#accessing-resources)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 <!-- Project Overview -->
 ## Project Overview
@@ -68,11 +68,8 @@ To deploy the VPC and associated resources, follow these steps:
 2- Navigate to the project directory containing the CloudFormation template (vpc-template.yaml) and the parameters file (parameters.json).
 
 3- Run the following AWS CLI command to create the CloudFormation stack:
-
-bash
-aws cloudformation create-stack --stack-name MyVPCStack --template-body file://vpc-template.yaml --parameters file://parameters.json
-Replace MyVPCStack with your preferred stack name.
-
+        aws cloudformation create-stack --stack-name MyVPCStack --template-body file://vpc.yaml --parameters file://parameters.json
+        
 4- Monitor the stack creation progress using the AWS CloudFormation console or the AWS CLI.
 
 Once the stack is created successfully, you can access and use the VPC and associated resources as needed.
