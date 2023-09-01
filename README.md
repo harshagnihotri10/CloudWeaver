@@ -75,7 +75,8 @@ To deploy the VPC and associated resources, follow these steps:
 Once the stack is created successfully, you can access and use the VPC and associated resources as needed.
 
 ## Documentation
-For detailed documentation on the project, including architecture diagrams and additional setup instructions, refer to the docs directory.
+For detailed documentation on the project, please refer to the [documentation directory](docs/).
+
 
 ## Contributing
 If you'd like to contribute to this project or report issues, please see the CONTRIBUTING.md file for guidelines and instructions.
