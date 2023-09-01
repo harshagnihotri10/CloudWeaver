@@ -36,66 +36,55 @@ Ensure that you have the following prerequisites in place:
 
 If you haven't already, configure your AWS CLI with the necessary credentials, region, and output format by editing the `~/.aws/config` file. You can use the `[default]` profile or create a named profile.
 
-Example `~/.aws/config`:
-
-```ini
-[default]
-region = us-east-1
-output = json
-
-   ```bash
-   aws cloudformation create-stack --stack-name MyVPCStack --template-body file://vpc-template.yaml --parameters file://parameters.json
-
 ### Customization
 Edit the parameters.json file to customize the VPC deployment. Specify parameters such as VPC CIDR blocks, subnet CIDR blocks, and resource names.
 
 ### Deployment
 Use the AWS CLI to create the CloudFormation stack and deploy the VPC. See Deployment for details.
 
-<!-- Customization -->
-Customization
+
+## Customization
 You can customize the VPC deployment by editing the parameters.json file. Here are some of the parameters you can customize:
 
-VPC CIDR Block: The IPv4 CIDR block for the VPC.
+#### VPC CIDR Block:
+The IPv4 CIDR block for the VPC.
 
-Subnet CIDR Blocks: The CIDR blocks for public and private subnets.
+#### Subnet CIDR Blocks:
+The CIDR blocks for public and private subnets.
 
-Resource Names: Names for various AWS resources, such as subnets, security groups, and route tables.
+#### Resource Names:
+Names for various AWS resources, such as subnets, security groups, and route tables.
 
-Other Configuration Options: Depending on your project's complexity, you can customize additional parameters and resources in the CloudFormation template.
+#### Other Configuration Options:
+Depending on your project's complexity, you can customize additional parameters and resources in the CloudFormation template.
 
-<!-- Deployment -->
 
-Deployment
+
+## Deployment
 To deploy the VPC and associated resources, follow these steps:
 
-Open a terminal.
+1- Open a terminal.
 
-Navigate to the project directory containing the CloudFormation template (vpc-template.yaml) and the parameters file (parameters.json).
+2- Navigate to the project directory containing the CloudFormation template (vpc-template.yaml) and the parameters file (parameters.json).
 
-Run the following AWS CLI command to create the CloudFormation stack:
+3- Run the following AWS CLI command to create the CloudFormation stack:
 
 bash
-Copy code
 aws cloudformation create-stack --stack-name MyVPCStack --template-body file://vpc-template.yaml --parameters file://parameters.json
 Replace MyVPCStack with your preferred stack name.
 
-Monitor the stack creation progress using the AWS CloudFormation console or the AWS CLI.
+4- Monitor the stack creation progress using the AWS CloudFormation console or the AWS CLI.
 
 Once the stack is created successfully, you can access and use the VPC and associated resources as needed.
 
-<!-- Accessing Resources -->
-Accessing Resources
+
+## Accessing Resources
 Provide instructions on how to access the resources created in your VPC, such as accessing EC2 instances, connecting to a database, or accessing a web application hosted in the VPC.
 
-<!-- Documentation -->
-Documentation
+## Documentation
 For detailed documentation on the project, including architecture diagrams and additional setup instructions, refer to the docs directory.
 
-<!-- Contributing -->
-Contributing
+## Contributing
 If you'd like to contribute to this project or report issues, please see the CONTRIBUTING.md file for guidelines and instructions.
 
-<!-- License -->
-License
-This project is licensed under the MIT License.
+
