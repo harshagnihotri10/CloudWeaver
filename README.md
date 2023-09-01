@@ -14,7 +14,6 @@
 - [Customization](#customization)
 - [Deployment](#deployment)
 - [Documentation](#documentation)
-- [Contributing](#contributing)
 
 
 <!-- Project Overview -->
@@ -77,8 +76,6 @@ Once the stack is created successfully, you can access and use the VPC and assoc
 ## Documentation
 For detailed documentation on the project, please refer to the [documentation directory](docs/).
 
-
-## Contributing
-If you'd like to contribute to this project or report issues, please see the CONTRIBUTING.md file for guidelines and instructions.
+<h1 align="center">THANK YOU! </h1>
 
 
