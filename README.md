@@ -1,6 +1,4 @@
-# Virtual-Private-Cloud
-<!-- Project Title -->
-<h1 align="center">My AWS Virtual Private Cloud (VPC) Project</h1>
+<h1 align="center">CloudWeaver</h1>
 
 <!-- Project Description -->
 <p align="center">A secure and scalable VPC foundation for AWS resources</p>
