@@ -19,7 +19,6 @@
 
 The goal of this project is to create a secure and scalable Virtual Private Cloud (VPC) that serves as the foundation for deploying various AWS resources. This README provides an overview of the project's components, deployment instructions, and customization options.
 
-<!-- Getting Started -->
 ## Getting Started
 
 #### Prerequisites
