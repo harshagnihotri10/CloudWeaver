@@ -4,7 +4,6 @@
 <p align="center">A secure and scalable VPC foundation for AWS resources</p>
 
 
-<!-- Table of Contents -->
 ## Table of Contents
 
 - [Project Overview](#project-overview)
